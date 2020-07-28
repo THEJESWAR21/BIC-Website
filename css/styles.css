@@ -1,127 +1,193 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
-
 }
-body{
-	font-family: 'Roboto', sans-serif;
+body {
+	font-family: "Roboto", sans-serif;
 }
-#nav-bar{
+#nav-bar {
 	position: sticky;
 	top: 0;
 	z-index: 10;
 }
-.navbar{
-background: #c0392b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.navbar {
+	background: #c0392b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-	padding: 0!important;
+	padding: 0 !important;
 }
-.navbar-brand img{
+.navbar-brand img {
 	height: 60px;
 	padding-left: 20px;
 }
-.navbar-nav li{
+.navbar-nav li {
 	padding: 0 10px;
 }
-.navbar-nav li a{
+.navbar-nav li a {
 	color: #fff !important;
 	font-weight: 200;
 	text-align: center;
 }
-.fa-bars{
+.fa-bars {
 	color: #fff;
 	font-size: 30px !important;
 }
-.navbar-toggler{
+.navbar-toggler {
 	outline: none !important;
 }
-#banner{
-background: #c0392b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+#banner {
+	background: #c0392b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	color: #fff;
 	padding-top: 5%;
 }
-.promo-title{
+.promo-title {
 	font-size: 40px;
 	font-weight: 600;
-	margin-top: 55px; 
+	margin-top: 55px;
 }
-.img-fluid{
-	margin-bottom: 50px; 
+.img-fluid {
+	margin-bottom: 50px;
 }
 
-.bottom-img{
+.bottom-img {
 	width: 100%;
 }
-.title::before{
-	content: '';
+.title::before {
+	content: "";
 	background: #7b1798;
 	height: 5px;
 	width: 200px;
 	margin-left: auto;
 	margin-right: auto;
+
 	display: block;
 	transform: translateY(63px);
 }
 
-#Jobs{
+#Jobs {
 	padding: 20px 0;
 }
-.teacher-img{
+.teacher-img {
 	width: 200px;
 	margin-top: 30px;
 }
-.Receptionist-img{
+.Receptionist-img {
 	width: 140px;
 	margin-top: 30px;
 }
-.Staffs-img{
-	width:  140px;
+.Staffs-img {
+	width: 140px;
 	margin-top: 30px;
 }
 
-#Jobs{
+#Jobs {
 	padding-top: 50px;
 }
-.Jobs h4{
+.Jobs h4 {
 	padding: 5px;
 	margin-top: 25px;
 	text-transform: uppercase;
 }
-#Jobs .btn-primary{
+#Jobs .btn-primary {
 	box-shadow: none;
 	padding: 8px 25px;
 	border: none;
 	border-radius: 20px;
-	background: #c0392b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #c0392b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.modal-header{
-		background: #c0392b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.modal-header {
+	background: #c0392b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.form-control-file{
+.form-control-file {
 	margin-left: 15px;
 }
-#file{
-			background: #c0392b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+#file {
+	background: #c0392b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.btn{
+.btn {
 	margin-top: 20px;
 }
 
-#Aboutus{
-	margin: 100px 0;
-	
+#testimonials {
+	margin-top: 100px;
+	margin-bottom: 30px;
 }
+.testimonials {
+	border-left: 6px solid #7b1798;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.testimonials img{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.user-details{
+	display: inline-block;
+	font-size: 14px;
+}
+
+.testimonials-2{
+	border-left: 6px solid #7b1798;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.testimonials-2 img{
+      	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
